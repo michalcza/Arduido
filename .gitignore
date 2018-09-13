@@ -1,0 +1,47 @@
+# Ignore everything
+#*
+
+# But not these files...
+!.gitignore
+!*/Archives/*
+!*/*.pdf
+#Arduino
+!*/*.ino
+
+#Dot files that are not being tracked since they are not in the Documents folder
+#!.*rc
+#!*/.ssh/*
+!.bash_profile
+#
+
+# ...even if they are in subdirectories
+# !*/
+
+# if the files to be tracked are in subdirectories
+#!*/a/b/file1.txt
+#!*/a/b/c/*
+
+#Here is where we list the files that we ignore that are typical to MacOS
+#These dot files are commented out because we are ignoring everything already and just adding files we want to track.
+
+# General
+#.DS_Store
+#.AppleDouble
+#.LSOverride
+
+# Thumbnails
+#._*
+
+# Files that might appear in the root of a volume
+#.DocumentRevisions-V100
+#.fseventsd
+#.Spotlight-V100
+#.TemporaryItems
+#.Trashes
+#.VolumeIcon.icns
+#.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+#.AppleDB
+#.AppleDesktop
+#.apdisk

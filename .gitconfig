@@ -1,0 +1,6 @@
+[user]
+	name = Michal Czarnecki-MacBook
+	email = mczarnecki@gmail.com
+[core]
+	editor = nano
+	excludesfile = /Users/michalczarnecki/Documents/.gitignore
